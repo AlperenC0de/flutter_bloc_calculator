@@ -1,6 +1,57 @@
-# flutter_application_11
+# Flutter Bloc Calculator
 
-A new Flutter project.
+A simple calculator app built using **Flutter** and **Bloc (Cubit)** pattern. This application demonstrates how to manage state effectively using the `flutter_bloc` package. It supports basic arithmetic operations:
+
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
+
+---
+
+## 📁 Project Structure
+
+lib/
+├── data/
+│   └── repo/
+│       └── mathematicRepository.dart
+├── ui/
+│   ├── cubit/
+│   │   └── mainPageCubit.dart
+│   └── views/
+│       └── mainPage.dart
+└── main.dart
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (any stable version)
+- A suitable IDE (VS Code or Android Studio recommended)
+
+### Run the App
+
+flutter pub get
+flutter run
+
+---
+
+## 🧠 State Management
+
+This project uses the **Cubit** from the `flutter_bloc` package for state management. The `MainPageCubit` handles the logic for arithmetic operations, while the UI updates reactively with `BlocBuilder`.
+
+---
+
+## 🖥️ UI Overview
+
+- Two number input fields (`TextField`)
+- A result display area using `BlocBuilder`
+- Four buttons to perform basic arithmetic operations
+
+---
+
 
 ## Getting Started
 
